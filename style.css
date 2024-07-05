@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Noto Sans", sans-serif;;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    padding: 0px 60px;
+    display: flex;
+    align-items: center !important;
+    justify-content: space-between;
+}
+
+.left{
+    width: 40%;
+    height: auto;
+    /* border: 1px solid black; */
+    
+}
+.left h1{
+    font-size: 70px;
+    line-height: 0.85;
+    font-weight: 500;
+}
+.bottom{
+    margin-top: 100px;
+}
+.color{
+    margin-bottom: 60px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: auto;
+    width: fit-content;
+    padding: 5px 15px;
+    border-radius: 30px;
+    border: 1px solid #111;
+}
+.brown{
+    height: 20px;
+    width: 20px;
+    background-color: brown;
+    border-radius: 50%;
+}
+.black{
+    width: 20px;
+    height: 20px;
+    background-color: #111;
+    border-radius: 50%;
+}
+.left h3{
+    margin: 10px 0px;
+    font-weight: 500;
+    font-size: 20px;
+}
+.right{
+    /* border: 1px solid black; */
+    width: 60%;
+    height: auto;
+    padding: 108px 0px 0px 0px;
+    position: relative;
+   
+}
+.price{
+    height: auto;
+    width: 350px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 0px 20px 150px;
+}
+.rating{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.rating p{
+    font-size: 13px;
+    font-weight: 600;
+}
+.star i{
+   font-size: 11px; 
+}
+.img{
+    height: 440px;
+    width: 350px;
+    margin-left: 150px;
+    background-image: url("assets/hero.avif");
+    background-size: cover;
+    background-position: center;
+}
+.bag{
+    color: #fff;
+    background-color: #111;
+    width: fit-content;
+    padding: 45px 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 58%;
+}
+.bag p{
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.right h2{
+    position: absolute;
+    left: 110px;
+    bottom: 0;
+    rotate: -90deg;
+    font-weight: 500;
+    font-size: 25px;
+    transform-origin:0 0;
+}
